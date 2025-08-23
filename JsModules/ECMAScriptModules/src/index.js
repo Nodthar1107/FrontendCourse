@@ -1,0 +1,1 @@
+import foo, { sum } from './module.js';
