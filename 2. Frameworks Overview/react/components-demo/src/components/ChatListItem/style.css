@@ -1,0 +1,36 @@
+.chat-list__item {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 10px 5px;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.chat-list__item:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.chat-list__item-avatar {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.chat-list__item-contact-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.chat-list__item-last-message {
+    color: rgba(0, 0, 0, 0.684);
+}
+
+.chat__chat-item_selected {
+    background-color: rgb(149, 149, 149);
+}

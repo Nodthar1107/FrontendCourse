@@ -1,0 +1,19 @@
+.chat-widget {
+    padding: 10px;
+}
+
+.chat-widget__filter {
+    width: 100%;
+    margin: 0;
+    line-height: 1.5em;
+    padding: 5px 10px;
+    border-radius: 16px;
+
+    box-sizing: border-box;
+}
+
+.chat-widget__loading {
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
